@@ -14,31 +14,21 @@ Follow the steps below to set up and run the Customer Churn Prediction web app:
    cd churn_prediction
 Create and Activate a Virtual Environment (optional but recommended)
 
-bash
-Copy
-Edit
 python -m venv venv
 venv\Scripts\activate  # On Windows
 source venv/bin/activate  # On macOS/Linux
 Install the Required Packages
 
-bash
-Copy
-Edit
+
 pip install -r requirements.txt
 Train the Model (only once)
 
 If random_forest_model.joblib is already provided, skip this.
 
-bash
-Copy
-Edit
 python app.py
 Run the Streamlit App
 
-bash
-Copy
-Edit
+
 streamlit run churn.py
 View the App
 
